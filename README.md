@@ -25,14 +25,18 @@ build/libs/modschecker-1.0.0.jar
 
 ## Run
 ```bash
-java -jar build/libs/modschecker-1.0.0.jar \
-  --modsDir ./mods \
-  --curseforgeApiKey <key> \
-  --gameId 432 \
-  --jsonOutput ./report.json \
-  --verbose \
-  --language ru \
-  --pause
+java -jar build/libs/modschecker-1.0.0.jar
+```
+
+## Additional flags
+```bash
+--modsDir ./mods
+--curseforgeApiKey <key>
+--gameId 432
+--jsonOutput ./report.json
+--verbose
+--language ru
+--pause
 ```
 
 ## Example output
