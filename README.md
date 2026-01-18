@@ -25,7 +25,7 @@ build/libs/modschecker-1.0.0.jar
 
 ## Run
 ```bash
-java -jar build/libs/modschecker-1.0.0.jar
+java -jar modschecker-1.0.0.jar
 ```
 
 ## Example output
